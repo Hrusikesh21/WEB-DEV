@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            grid-area: header;
+        }
+        .menu{grid-area: menu;}
+        .hero{
+            grid-area: hero;
+        }
+        .area{
+            grid-area: area;
+        }
+        .article{
+            grid-area:article;
+        }
+        .extra{
+            grid-area: extra;
+
+        }
+        .banner{
+            grid-area: banner;
+        }
+       /* .gride-container{
+            display: grid;
+            grid-template-areas: 'header hearer hearer hearer hearer'
+            'main main main main right right'
+            'menu footer footer footer footer footer';
+            gap: 10px;
+            background-color: aqua;
+            padding: 10px;
+
+        }
+        .gride-container > div{
+            background-color: #d64949;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+
+        }
+        */
+        .grid-container{
+            margin: 0;
+            display: grid;
+            grid-template-areas:
+             'header menu menu menu'
+            'hero hero hero hero'
+            'main main article image'
+            'banner banner banner banner';
+            
+        }
+        .grid-container > section{
+            border: 2px solid black;
+            text-align: center;
+        }
+        .hero{
+            height: 500px;
+        }
+    </style>
+</head>
+<body class="grid-container">
+    <section class="header">header</section>
+    <section class="menu">menu</section>
+    <section class="hero">hero</section>
+    <section class="main">main</section>
+    <section class="article">article</section>
+    <section class="image">image</section>
+    <section class="extra">extra</section>
+    <section class="banner">banner</section>
+    
+</body>
+</html>

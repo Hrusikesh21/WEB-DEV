@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muse - Music Player </title>
+    <script src="https://kit.fontawesome.com/7c5dccf520.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <nav>
+            <img src="logo.png" alt="">
+            <div id="menu-categeries" class="menu-list">
+                 <h5>MENU</h5>
+                  <li><i class="fa-solid fa-music"></i>Explore</li>
+                 <li><i class="fa-brands fa-soundcloud"></i>Generes</li>
+                <li><i class="fa-brands fa-palette"></i>Artist</li>
+                <li> <i class="fa-brands fa-record-vinyl"></i>Albums</li>
+                
+            </div>
+            <div id="menu-category2" class="menu-list">
+                <h5>LIBRARY</h5>
+
+                <li><i class="fa-solid fa-clock"></i>Recent</li>
+                <li><i class="fa-solid fa-record-vinyl"></i>Albums</li>
+               <li><i class="fa-solid fa-heart"></i>Favorites</li>
+             
+            </div>
+            <div id="menu-category3" class="menu-list">
+                <h5>PLAYLIST</h5>
+                <li><i class="fa-solid fa-circle-play"></i>Good Vibes</li>
+                <li><i class="fa-brands fa-circle-play"></i>Best jazz</li>
+               <li><i class="fa-solid fa-circle-play"></i>Party</li>
+               <li> <i class="fa-solid fa-add"></i>Add Playlist</li>
+            </div>
+
+        </nav>
+        <section id="music-container">
+            <header>
+                <nav>
+
+                    <li>Home</li>
+                    <li>Pools</li>
+                    <li>NFTs</li>
+                    <li>Launchpad</li>
+                    <li>Work With Us </li>
+                </nav>
+                
+                    <div id="user-area">
+                        <div id="user-info">
+                            <div id="username">
+                                Jerone
+                            </div>
+                            <div id="user-dropdown">
+                                <button id="dropdown-btn">
+                                    Text
+                                </button>
+                                <i class="fa-solid fa-caret-down"></i>
+                                <div id="dropdown-containt">
+                                    <a href="#">Profile</a>
+                                    <a href="">Setting</a>
+                                    <a href="">Notifications</a>
+                                    <a href="">Logout</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="user-avatar.png" alt="">
+                    </div>
+                
+            </header>
+         </section>
+    </main>
+    <footer>
+        <div class="song-profile">
+            <img id="song-profile-image" src="song-label.jpeg" alt="">
+            <div id="song-details">
+                <span>Song Name</span>
+                <span>Artist Name</span>
+            </div>
+            <div id="song-view">
+                30% APR
+            </div>
+        </div>
+      <div id="music-player">
+        <div id="music-controls" >
+            <i class="fa-solid fa-backward-step"></i>
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-pause"></i>
+            <i class="fa-solid fa-forward-step"></i>
+        </div>
+            
+            <div id="song-status">
+                <input type="range" max="1000" min="0" value="70">
+                <time>5:00</time>
+            </div>
+            <div id="wishlist">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+      </div>
+      <div id="volume-controls">
+        <i class="fa-solid fa-volume-high"></i>
+        <input type="range" name="" id="" max="100" min="0" value="70">
+      </div>
+    </footer>
+
+</body>
+</html>
